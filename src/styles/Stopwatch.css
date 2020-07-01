@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  background-color: #2e09d6; }
+
+.times {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+.buttons {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 2.0em; 
+}
+
+.buttons button {
+  margin: 0.4em; }
+
+.Numerals {
+  margin-top: 2.0em; }
+
+.NumeralsText {
+  font-size: 6rem !important;
+  text-align: center;
+ }
+  @media screen and (max-width: 600px) {
+    .NumeralsText {
+      font-size: 3rem !important; } }
+  @media screen and (max-width: 400px) {
+    .NumeralsText {
+      font-size: 2rem !important; } }

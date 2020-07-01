@@ -1,0 +1,10 @@
+.avatar {
+    display: flex;
+    margin-right: 1em;
+    margin-bottom: 1em; 
+}
+
+.items {
+    padding-bottom: 1rem;
+  }
+  
